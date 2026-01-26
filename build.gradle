@@ -35,6 +35,11 @@ test {
     systemProperty "karate.options", System.properties.getProperty("karate.options")
     systemProperty "karate.env", System.properties.getProperty("karate.env")
     systemProperty "baseUrl", System.properties.getProperty("baseUrl")
+    systemProperty "baseUrl2", System.properties.getProperty("baseUrl2")
+    systemProperty "baseUrl3", System.properties.getProperty("baseUrl3")
+    systemProperty "baseUrl4", System.properties.getProperty("baseUrl4")
+    systemProperty "baseUrl5", System.properties.getProperty("baseUrl5")
+    systemProperty "apiKey", System.properties.getProperty("apiKey")
     outputs.upToDateWhen { false }
 
 

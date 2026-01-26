@@ -24,6 +24,7 @@ public class TestRunner {
         Results results = Runner.path("classpath:co/com/project/pokeapi")
                 .outputCucumberJson(true)
                // .tags("@ignore")
+                .tags("@GetToken")
                 .parallel(5);
         generateReports(results.getReportDir());
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
